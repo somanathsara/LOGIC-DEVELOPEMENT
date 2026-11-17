@@ -1,0 +1,14 @@
+<h1>My First Heading</h1>
+<p>Hello This is Paragraph tab</p><hr>
+<b>Hello i am From Nalanada</b><hr>
+<i>Hello i am from Nalanada</i><hr>
+<marquee>Hello i am from Nalanada</marquee><hr>
+<strong>Hello i am from Nalanada</strong><hr>
+<a href="www.youtube.com" width='40' height="40">YOUTUBE</a><br>
+<upper>Hello  i am from Nalanada</upper><hr>
+<lower>Hello  i am from Nalanda</lower><hr>
+<button type="button">Normal Button</button>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+<button onclick="alert('Hello!')">Click Me</button>
+
