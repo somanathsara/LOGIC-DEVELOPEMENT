@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ex1 {
+            background-color: rgb(15, 129, 229);
+            border: 2px solid blue;
+            margin-left: 50px;
+        }
+
+        .ex2 {
+            background-color: aqua;
+            margin-left: inherit;
+        }
+
+        .ex3 {
+            background-color: gold;
+            margin: inherit;
+        }
+
+        div .p {
+            margin-top : 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ex1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores placeat quia iusto, dolorem qui
+        officia ea numquam sit quis aliquid ex in assumenda aliquam ducimus pariatur ut recusandae illum id!</div>
+    <div class="ex2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dignissimos atque aliquam molestiae,
+        oloribus quod enim sequi. Saepe repudiandae voluptatum fuga ea quas
+        temporibus eaque animi quas, quae iste placeat laboriosam ipsam!
+        Saepe, perferendis.</div>
+    <div class="ex3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis ut ipsam assumenda,
+        tempora distinctio, et officiis iure voluptatum quibusdam aut repellendus suscipit in minus necessitatibus odio
+        laboriosam? Vitadem eos?</div>
+    <div class="margincollapse">
+        <p>This is a paragraph</p>
+        <p>This is nanother paragraph</p>
+        <p>This is another also</p>
+        <p>Here, each p element has a top margin of 30px and a bottom margin of 30px. So, the vertical margin between
+            the p elements should have been 60px (30px + 30px). However, due to margin collapse, the actual margin ends
+            up being 30px.</p>
+    </div>
+</body>
+
+</html>
